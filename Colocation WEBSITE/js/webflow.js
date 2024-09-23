@@ -9645,9 +9645,7 @@
         PLAIN_OBJECT,
         WF_PAGE
       } = _constants.IX2EngineConstants;
-      function setStyle(element, prop, value) {
-        element.style[prop] = value;
-      }
+     
       function getStyle(element, prop) {
         return element.style[prop];
       }
