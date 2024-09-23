@@ -14494,6 +14494,11 @@
             });
           };
         }
+        function setStyle(element, prop, value) {
+    console.log(`Setting style: ${prop} = ${value} for element: `, element);
+    element.style[prop] = value;
+}
+
         function changeTab(data, options) {
           options = options || {};
           var config = data.config;
